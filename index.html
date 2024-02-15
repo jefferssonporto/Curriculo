@@ -1,86 +1,85 @@
 <!DOCTYPE  html>
 <html lang="pt-br" xmlns="http://www.w3.org/1999/html">
 <head>
-
+    <script language="JavaScript" src="_JavaScript/_js.js"> </script>
 <meta charset="UTF-8"/>
 <Title> Jefferson de Oliveira Porto </Title>
+    <link rel="stylesheet" type="text/css" href="_CSS/estilo.css"/>
     <body>
-<link href="https://jefferssonporto.github.io/Curriculo/style.css" rel= "stylesheet"/>
-        <link rel="stylesheet" href="_CSS/estilo.css"/>
-<body>
-
 <div id="interface">
-    <header id="cabecalho">
-        <hgroup>
-            <h1> Jefferson Porto </h1>
-        </hgroup>
-
-    </header>
+        <header id="cabecalho">
+                <h1> Jefferson Porto </h1>
+        </header>
 
 
-<div id="cabeca">
-    <h1 Style="text-align: center"> SOBRE </h1>
+<div class="content">
 
-    <nav>
-               <ul>
-                <li>   Idade: 27  </li>
-                <li>   Data de nascimmento: 22/12/1996 </li>
-                <li>   Endereço: rua das Amoreiras, 192, Cosmos - RJ. </li>
-                </ul>
+    <p> </p>
+    <figure class="fot">
+    <button onclick="toggleOverlay()"> <img src="_picture.jpeg" /> </button>
+        <figcaption> Desenvolvedor Web Junior </figcaption>
+    </figure>
 </div>
 
-    <section id="corpo">
-
-
-    <h1 Style="text-align: center"> EXPERIÊNCIAS </h1>
-    Atuei como gestor de uma empresa por 10 anos, fazendo gestão de pessoas, produtos, equipamento, cmv e responsável por todos os resultados e indicadores da loja. Hoje busco uma oportunidade como desenvolvedor Web, aumentando meus conhecimentos e levando uma melhor permormance a empresa.
-        <div id="foto">
-
-            <figure class="foto-legenda">
-                <img src="_modelo.jpeg"/>
-                <figcaption> Desenvolvedor Web Junior  </figcaption>
+        <div class="sidebar">
+            <figure class="foto-menu">
+                 <img src="_picture.jpeg" />
             </figure>
+           <a  href=" https://www.linkedin.com/feed" target="_blank">  <img src="_linkedin.png"  style="width: 50px; height: 30px;" </a>
+            <a href="#content1" onclick="changeContent('content1')">SOBRE</a>
+            <a href="#content2" onclick="changeContent('content2')">EXPERIÊNCIAS</a>
+            <a href="#content3" onclick="changeContent('content3')">FORMAÇÃO</a>
+            <a href="#content4" onclick="changeContent('content4')">CONTATOS </a>
+            <h5> &copy; Copyright <strong> <span>Jefferson Porto 2024 </span></strong>   </h5>
+
         </div>
 
+            <div class="content" id="content1">
+                  <h2> SOBRE </h2>
+             <p>  <li> Idade: 27</li>
+              <li> Data de nascimmento: 22/12/1996</li>
+            <li> Endereço: rua das Amoreiras, 192, Cosmos - RJ.</li></p>
+            </div>
 
-    <h2 style="text-align: center"> FORMAÇÃO  </h2>
-
-   <nav>
-       <ul>
-           <li>  Superior completo em Administração Estácio de Sá </li>
-               <li>  Curso de Front-End: HTML, CSS, Javascript, SQL </li>
-               <li> Back-End: Python, Java </li>
-       </ul>
-   </nav>
+<div class="content" id="content3">
+                      <h2>FORMAÇÃO</h2>
+    <p> <li> completo em Administração Estácio de Sá   </li>
+        <li> Curso de Front-End: </li>
+       <h7> <li>  HTML </li>
+           <li>  CSS </li>
+           <li> Javascript </li>
+           <li> SQL </li> </h7>
+        <li>  Back-End:</li>
+         <h7> <li> Python</li>
+             <li>Java</li> </h7>  </p>
+</div>
 
     <figure class="foto-legenda">
-            <img src="_picture.jpeg">
-        <figcaption> Desenvolvedor Web Junior  </figcaption>
+        <img src="_modelo.jpeg"/>
+        <figcaption> Desenvolvedor Web Junior </figcaption>
     </figure>
-        </figure>
-
-
-    </section>
-
-        <footer id="rodape">
-
-    <h1 Style="text-align: center"> CONTATOS </h1>
-    <nav>
-        <ul>
-            <li> <a href=" https://www.linkedin.com/feed" target="_blank"> LINKEDIN  </a>  <img src="_linkedin.png"  style="width: 40px; height: 20px;"  </li>
-            <li> <a href=" https://github.com/jefferssonporto?tab=repositories" target="_blank"> GITHUB </a> <img src="_git.png" style="width: 50px; height: 30px;"</li>
-        <li> E-mail: jeffersson_porto@hotmail.com </li>
-        </ul>
-    </nav>
-
-
-   <div class="copyright"/>
-        &copy; Copyright <strong><span>Jefferson Porto 2024</span></strong>
-        <div class="credits"/>
-
-        </footer>
-
+<div class="content" id="content2">
+                      <h2>EXPERIÊNCIAS</h2>
+    <p>Atuei como gestor de uma empresa por 10 anos, fazendo gestão de pessoas, produtos, equipamento, cmv e
+        responsável por todos os resultados e indicadores da loja. Hoje busco uma oportunidade como desenvolvedor
+        Web, aumentando meus conhecimentos e levando uma melhor permormance a empresa.</p>
 </div>
-</body>
-</head>
-</html>
+
+    <div class="content" id="content4">
+        <h2> CONTATOS </h2>
+        <p>
+        <footer id="rodape">
+        <h6>
+    <li> <a href=" https://www.linkedin.com/feed" target="_blank"> LINKEDIN </a> <img src="_linkedin.png"
+     style="width: 40px; height: 20px;"</li><li><a href=" https://github.com/jefferssonporto?tab=repositories" target="_blank"> GITHUB </a> <img
+    src="_git.png" style="width: 50px; height: 30px;"</li>
+    <li> E-mail: jeffersson_porto@hotmail.com</li>
+        </p>
+        </h6>
+    </div>
+
+</footer>
+</div>
+    </body>
+    </head>
+    </html>
