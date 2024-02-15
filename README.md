@@ -1,2 +1,2 @@
 # Curriculo
- curriculo em html e css
+ Curriculo feito com html, css e JS.
