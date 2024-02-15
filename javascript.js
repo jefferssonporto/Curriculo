@@ -1,4 +1,4 @@
-/* JS PARA O MENU LATERAL */
+* JS PARA O MENU LATERAL */
 function changeContent(contentId) {
     var contents = document.querySelectorAll('.content');
     for (var i = 0; i < contents.length; i++) {
